@@ -15,7 +15,7 @@ function todayTime(){
 function clickHandler(name){
   alert('Hello! '+ name+' welcome to our website.');
 }
-
+/* To get firstName from textbox*/
 document.getElementById('firstName').addEventListner('keypress', function(event){
   if(event.keyCode == 13){
     event.preventDefault();
