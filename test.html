@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head lang="en-US">
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles/myDesign.css">
+  <script src="js/myScript.js"></script>
+</head>
+<body>
+  <form >
+    <fieldset>
+      <legend>Text Value</legend>
+      Position: <input type="text" name="position" value="" required/>
+    </fieldset>
+    <fieldset>
+      <legend>Radio value</legend>
+      <em>Department</em><br/>
+      FIELD : <input type="radio" name="department" value="Field" checked="checked"/><br/>
+      ITOPS : <input type="radio" name="department" value="Itops" /><br/>
+      SALES : <input type="radio" name="department" value="Sales" /><br/>
+      MGMT : <input type="radio" name="department" value="Mgmt" /><br/>
+    </fieldset>
+    <input type="submit" value="Save Text" onclick="saveTextValue()"></input>
+    <button type="button" onclick="saveRadioValue()">Save Radio</button>
+  </form>
+</body>
